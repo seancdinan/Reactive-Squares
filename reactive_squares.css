@@ -1,0 +1,260 @@
+body {
+	background-color: hsl(195,50%,10%);
+}
+
+.main {
+	position: relative;
+	height: 950px;
+	width: 1500px;
+	margin: 0 auto;
+}
+
+/************** HOVER BLOCKS ****************/
+#NYC {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 350px;
+	width: 500px;
+	background-color: transparent;
+	z-index: 1;
+}
+
+#Gent {
+	position: absolute;
+	top: 0px;
+	left: 500px;
+	height: 350px;
+	width: 500px;
+	background-color: transparent;
+	z-index: 1;
+}
+
+#Crete {
+	position: absolute;
+	top: 0px;
+	left: 1000px;
+	height: 350px;
+	width: 500px;
+	background-color: transparent;
+	z-index: 1;
+}
+
+#Cinque {
+	position: absolute;
+	top: 350px;
+	left: 0px;
+	height: 350px;
+	width: 500px;
+	background-color: transparent;
+	z-index: 1;
+}
+
+#Copenhagen {
+	position: absolute;
+	top: 350px;
+	left: 500px;
+	height: 350px;
+	width: 500px;
+	background-color: transparent;
+	z-index: 1;
+}
+
+#Burano {
+	position: absolute;
+	top: 350px;
+	left: 1000px;
+	height: 350px;
+	width: 500px;
+	background-color: transparent;
+	z-index: 1;
+}
+
+#London {
+	position: absolute;
+	top: 700px;
+	left: 0px;
+	height: 350px;
+	width: 500px;
+	background-color: transparent;
+	z-index: 1;
+}
+
+#Cassis {
+	position: absolute;
+	top: 700px;
+	left: 500px;
+	height: 350px;
+	width: 500px;
+	background-color: transparent;
+	z-index: 1;
+}
+
+#Florence {
+	position: absolute;
+	top: 700px;
+	left: 1000px;
+	height: 350px;
+	width: 500px;
+	background-color: transparent;
+	z-index: 1;
+}
+
+/************** HOVER EVENTS ****************/
+#NYC:hover ~ .NYC {
+	opacity: 1;
+	transition: 700ms;
+}
+
+#Gent:hover ~ .Gent {
+	opacity: 1;
+	transition: 700ms;
+}
+
+#Crete:hover ~ .Crete {
+	opacity: 1;
+	transition: 700ms;
+}
+
+#Cinque:hover ~ .Cinque {
+	opacity: 1;
+	transition: 700ms;
+}
+
+#Copenhagen:hover ~ .Copenhagen {
+	opacity: 1;
+	transition: 700ms;
+}
+
+#Burano:hover ~ .Burano {
+	opacity: 1;
+	transition: 700ms;
+}
+
+
+#London:hover ~ .London {
+	opacity: 1;
+	transition: 700ms;
+}
+
+#Cassis:hover ~ .Cassis {
+	opacity: 1;
+	transition: 700ms;
+}
+
+#Florence:hover ~ .Florence {
+	opacity: 1;
+	transition: 700ms;
+}
+
+/************** CITY DIVS *******************/
+.default {
+	transition: 500ms;
+}
+
+.NYC {
+	opacity: 0;
+	transition: 700ms;
+}
+
+.Gent {
+	opacity: 0;
+	transition: 700ms;
+}
+
+.Crete {
+	opacity: 0;
+	transition: 700ms;
+}
+
+.Cinque {
+	opacity: 0;
+	transition: 700ms;
+}
+
+.Copenhagen {
+	opacity: 0;
+	transition: 700ms;
+}
+
+.Burano {
+	opacity: 0;
+	transition: 700ms;
+}
+
+.London {
+	opacity: 0;
+	transition: 700ms;
+}
+
+.Cassis {
+	opacity: 0;
+	transition: 700ms;
+}
+
+.Florence {
+	opacity: 0;
+	transition: 700ms;
+}
+
+/************** LOCATIONS *******************/
+.topL {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.topM {
+	position: absolute;
+	top: 0px;
+	left: 500px;
+}
+
+.topR {
+	position: absolute;
+	top: 0px;
+	left: 1000px;
+}
+
+.midL {
+	position: absolute;
+	top: 350px;
+	left: 0px;
+}
+
+.midM {
+	position: absolute;
+	top: 350px;
+	left: 500px;
+}
+
+.midR {
+	position: absolute;
+	top: 350px;
+	left: 1000px;
+}
+
+.botL {
+	position: absolute;
+	top: 700px;
+	left: 0px;
+}
+
+.botM {
+	position: absolute;
+	top: 700px;
+	left: 500px;
+}
+
+.botR {
+	position: absolute;
+	top: 700px;
+	left: 1000px;
+}
+
+
+
+
+
+
+
